@@ -1,0 +1,114 @@
+UX project notes
+
+Planning the prime objective of an application: {The foundation}
+
+seek the prime objective.
+
+look for context for the prime objective (dont assume!).
+
+ask many questions directed towards identifying what surrounds the prime directive and how the app will be used.
+
+Example [Another example is this really cool app that we were able to work on. The client came in and he had an idea of what he wanted his app to be. He wanted to stream city council meetings. He was a lobbyist, he was always in city council meetings, and he came up with this idea. He's said "People have no idea what the city council is talking about. We need to have an app that makes it really easy to livestream." So that's what he came in with. Now, in that that first initial conversation, I pointed out a big hole in his logic. He was assuming his potential users didn't go to city council meetings because it's hard to get there, but that's not the case. The reason why people don't go to city council meetings is that they don't care about 99.9% percent of what they're talking about. That's why people don't interact with their local governments: most of the things that they're talking about aren't interesting to them. So I told him, "You can build this up, but it's not going to reach your prime objective. Your prime objective is to increase the engagement of local communities with their local governments. This is not going to do that."
+
+Instead, what you need is in-the-moment notifications when something IS important to you. So instead let's build a user profile. When they sign up for an account, they indicate "I'm interested in zoning and hunting and that's it. That's all I care about." Then, when when they're talking about those things in the city council meeting, users can get a push notification and they know at that moment to tune into that stream. That is going to increase engagement. I wouldn't have been able to solve that problem for him if I didn't understand what he was trying to accomplish.]
+
+
+User Stories and Analyzing a Feature List:
+
+using user stories with feature lists can benefit the development of the feature list by exposing the finer details of the feature in question.
+
+Example [when you think of an app, you think of what it does, right? You think, "It can do this, it can do this, it can do this," but an app is not a one-dimensional thing. It's usually being interacted with by multiple different people. You need to identify all the different people that may ever touch this thing, all the way from the bottom, with a guest user, to the top, with a super admin.
+
+So once you've identified this prime objective--and you may have the bullet points of this feature list that the client, or your manager, or your boss has brought you--and that needs to be converted into user stories. Let's take messaging. The client says, "This app needs to be able to message." That's a feature. Jim, he's a standard user, non-paid. Can he message? Yes. Jim can message. There is a user story.
+
+Then you have Susan, who is the super admin. She needs to message, but she also needs to CRUD messages. She needs to be able to do all those things, so she might have deeper access. Maybe she needs to be able to read everyone's messages. Hopefully not, but maybe. But she, at least, needs to be able to CRUD them. Identifying that one feature--which is just "messaging"--can turn into eight different user stories for eight different users. This is an obvious one, but just to show this line of reasoning, you say, OK, we want to have messaging. We have Jim, who's a standard user, and we have Susan, who's a standard user, and they can message back and forth. Can Jim flag inappropriate content inside of messaging? Yes he can. So he flags it. Well then what happens to it? You have to follow that data. Now that it's flagged, who manages the messaging? So Jim can send messages. Jim can receive messages. Jim can flag messages. Can Jim review his flagged messages? Maybe, maybe not.]
+
+expect overlap between develpment, UX, and software engineering.
+
+Empathy is important to ensure your not only thinking about how you're going to interact with the app.
+
+
+Creating Effective Sitemaps:
+
+the sitemap should answer the user stories.
+
+hash out unique features that will happen in the features page and sub pages.
+
+specify what screens and actions are features and actions that will solve user stories.
+
+sitemap will be approved by client(or the product owner or whoever is running it) then it will hit the developers
+
+sitemaps are effective for compunicating with the stakeholders and collaborating while its being built.
+
+
+Design Low Fidelity Wireframes:
+
+low fidelity is stricktly focusing on the user experience.
+
+the main objective of building low fidelity wireframes is that you know all of the objects that need to exist on every page
+
+the idea with the low fidelity wireframe is to not be thinking of the user interface at all. I mean, maybe 5-10% percent, and saying "I'm going to make a square to mean a button," but that's the extent of it.
+
+The important part is that you're actually saying, "For these actions to happen, what objects need to exist?" That may include my nav bar, or some buttons, or a profile picture that's just represented with a circle or something
+
+getting too detailed can waist time.
+
+low fidelity wireframes can allow the backend developers to get started because they know the objects that need to exist. They know the data that needs to be there.
+
+this forces you to just focus on that single user experience problem and create a nice flow from screen to screen to screen.
+
+from the user experience standpoint this part is absolutely critical to get right.
+
+
+Guide to UX Mockups:
+
+high fidelity designs come after the site map and low fidelity wireframe has been signed off
+
+create a few high fidelity designs to give the client an idea of what there app is going to look like. after that begin the design.
+
+this is the stage you can be maticulous about the design
+
+
+Ux Skill Development:
+
+comunnication is extreamly important in UI/UX design
+
+practicing critical thinking, communication and listening skills is important
+
+be and active participant in the conversation asking questions aimed to weed out what you dont know you dont know.
+
+be flexible to switch your perspective in and out on the fly. Dont spend to much time solving the little problems in and isolated environment. it may be good to solve them but the changes you make may effect how its going to behave on a mobile or in a few pages from then
+
+Example ["Does this affect other things outside of this one isolated incident?"]
+
+The more you understand about development--and you said it's called a unicorn for a reason--but if you are really good at communicating, you have a firm grasp on the development, you work well with people, and you have some of that design built into your DNA, it is so valuable.
+
+patience will help you fill in the gaps and holes in your design to make it the best it can be.
+
+
+Project Requirements for UX:
+
+Start with the step one, which is the prime objective. Define what the prime objective of this system is. It needs to be a little bit more specific than "this is a portfolio application." It comes down to what you want people to really see and the type of experience you want them to have.
+
+"What am I trying to accomplish? Am I selling a product?" Yes. You're selling yourself. You're the product, so after identifying what the prime objective is, all your content should be trying to achieve that objective. With any marketing site, whether it's a purchase, subscribe, or Contact Me button, these are the things that you want your users to do, whether they're possible employers, partners, or customer
+
+identify, first, what you want these people to do, and who these people are, and then make sure everything about this website revolves around that.
+
+what pages do i want on this website
+
+Lucidchart
+
+adobe XD is another program you can use (Not Free)
+
+InVision is free
+
+feel free to draw it out
+
+Notice how it started with the most generic, high level concepts such as the overall goal of the system. Then, with each step down the creative process, things got more and more detailed. Don't try to jump in and build your wireframes right when this video's done. Follow the process.
+
+the goal is to make this proccess second nature for when you get into the workforce
+
+have the content be as small as possible. be direct with as few words as possible.
+
+its fine to not know what your specialty will be. make a best guess and make that your focal point but know you can continually evolve that in the future. your not locked into that.
+
